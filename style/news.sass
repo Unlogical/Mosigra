@@ -10,25 +10,27 @@ body
   width: 1100px
   height: 100%
   overflow: hidden
-  padding-top: 115px
+  padding: 65px 10px 40px 10px
+  background-color: rgba(255,255,255, 0.5)
 
 .news-info *
   float: left
 
   
 .news-block
-  width: 1090px
+  width: 1070px
   margin: 5px
+  padding: 10px
   float: left
   min-height: 120px
   height: 100%
   border: 2px solid white
-  background-color: rgba(255,255,255, 0.95)
+  border-radius: 10px
+  background-color: white
   color: #333
 
 .news-block:hover
   background-color: rgba(255,255,255, 0.99)
-  box-shadow: 2px 0px 4px 0px #a00
 
 
 .news-image 
@@ -57,17 +59,18 @@ body
   button
     color: $main-color
     font-weight: 600
-    background-color: rgba(255,255,255, 0.1)
+    background-color: white
     height: 30px
     border: 2px solid $main-color
     float: right
     margin-top: -35px
     margin-right: 5px
     text-transform: uppercase
-
-
-.news-block
+    border-radius: 5px
   button:hover
+    color: white
+    background-color: $main-color
+  .pushed-button
     color: white
     background-color: $main-color
 

@@ -1,18 +1,33 @@
-.red-button, header menu button {
-  color: #b11;
+.ibutton, .red-button, header menu button, .white-button {
+  height: 100%;
   font-weight: 600;
-  background-color: white;
-  height: 30px;
-  border: 2px solid #b11; }
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px; }
+
+.red-button, header menu button {
+  color: white;
+  background-color: #b11;
+  border: 0px solid #b11;
+    border-right: 2px solid white; }
 
 .red-button:hover, header menu button:hover {
+  color: white;
+  background-color: #c22; }
+
+.white-button {
+  color: #b11;
+  background-color: white;
+  border: 2px solid #b11; }
+
+.white-button:hover {
   color: white;
   background-color: #b11; }
 
 header {
   position: fixed;
   background-color: #b11;
-  height: 100px;
+  height: 50px;
   width: 100%;
   padding-top: 30px;
   padding-left: 30px;
@@ -26,27 +41,34 @@ header {
   header .mosigra-logo {
     background-image: url("images/mosigra-logo-white.png");
     background-size: cover;
-    height: 90px;
-    width: 100px; }
+    width: 60px;
+    height: 50px;
+    margin-top: -5px; }
   header .coffee-out-logo {
     background-image: url("images/coffee-out-logo-white1.png");
     background-size: cover;
-    height: 90px;
-    width: 100px; }
+    width: 50px;
+    height: 50px;
+    margin-top: -5px; }
   header .mosigra-text {
     background-image: url("images/mosigra-text-white.png");
     background-size: cover;
-    height: 100px;
-    width: 550px; }
-  header menu .checked-button {
-    color: white;
-    background-color: #c22;
-    border: 2px solid white;
-    margin-left: 2px;
-    margin-right: 2px; }
-  header menu button {
-    font-size: 18px;
-    text-transform: uppercase; }
+    width: 270px;
+    height: 50px;
+    margin-top: -5px; }
+  header menu {
+    margin-top: 5px; }
+    header menu .checked-button {
+      color: white;
+      background-color: #c33; }
+    header menu .checked-button:hover {
+      background-color: #d33; }
+    header menu button:last-child {
+      border-right: 0px solid white; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
 
 body {
   font: 100% Helvetica, sans-serif; }

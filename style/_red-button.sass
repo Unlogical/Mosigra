@@ -1,12 +1,32 @@
 $main-color: #b11
 
-.red-button 
-  color: $main-color
+.ibutton 
+  height: 100%
   font-weight: 600
-  background-color: white
-  height: 30px
-  border: 2px solid $main-color
+  text-transform: uppercase
+  font-size: 18px
+  padding: 5px 
+
+.red-button 
+  @extend .ibutton
+  color: white
+  background-color: $main-color
+  border: 0px solid $main-color 
+    right: 2px solid white 
+
 
 .red-button:hover
+  color: white
+  background-color: #c22
+  
+
+
+.white-button
+  @extend .ibutton
+  color: $main-color
+  background-color: white
+  border: 2px solid $main-color
+
+.white-button:hover
   color: white
   background-color: $main-color

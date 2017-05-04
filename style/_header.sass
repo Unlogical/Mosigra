@@ -1,10 +1,12 @@
 @import _red-button
 $main-color: #b11
+$in-header-height: 50px
+
 
 header
   position: fixed
   background-color: $main-color
-  height: 100px
+  height: 50px
   width: 100%
   padding-top: 30px
   padding-left: 30px
@@ -18,29 +20,31 @@ header
   .mosigra-logo
     background-image: url("images/mosigra-logo-white.png")
     background-size: cover
-    height: 90px
-    width: 100px
+    width: 60px
+    height: $in-header-height
+    margin-top: -5px
   .coffee-out-logo
     background-image: url("images/coffee-out-logo-white1.png")
     background-size: cover
-    height: 90px
-    width: 100px
+    width: 50px
+    height: $in-header-height
+    margin-top: -5px
   .mosigra-text
     background-image: url("images/mosigra-text-white.png")
     background-size: cover
-    height: 100px
-    width: 550px
+    width: 270px
+    height: $in-header-height
+    margin-top: -5px
   menu 
-     
+    margin-top: 5px
     .checked-button
       color: white
-      background-color: #c22
-      border: 2px solid white
-      margin-left: 2px
-      margin-right: 2px     
+      background-color: #c33
+    .checked-button:hover
+      background-color: #d33
     button 
       @extend .red-button 
-      font-size: 18px
-      text-transform: uppercase
     button:hover
       @extend .red-button:hover
+    button:last-child
+      border-right: 0px solid white

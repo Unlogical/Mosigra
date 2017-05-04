@@ -1,11 +1,26 @@
-.red-button {
-  color: #b11;
+.ibutton, .red-button, .white-button {
+  height: 100%;
   font-weight: 600;
-  background-color: white;
-  height: 30px;
-  border: 2px solid #b11; }
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px; }
+
+.red-button {
+  color: white;
+  background-color: #b11;
+  border: 0px solid #b11;
+    border-right: 2px solid white; }
 
 .red-button:hover {
+  color: white;
+  background-color: #c22; }
+
+.white-button {
+  color: #b11;
+  background-color: white;
+  border: 2px solid #b11; }
+
+.white-button:hover {
   color: white;
   background-color: #b11; }
 
