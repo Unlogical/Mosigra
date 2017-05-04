@@ -11,59 +11,36 @@ header
   margin-top: -20px
   margin-left: -20px
   margin-bottom: 20px
-
-header 
+  *
+    display: inline-block
+    float: left
+    position: relative
   .mosigra-logo
     background-image: url("images/mosigra-logo-white.png")
     background-size: cover
-    display: block
-    float: left
     height: 90px
     width: 100px
-    position: fixed
-
-header 
   .coffee-out-logo
     background-image: url("images/coffee-out-logo-white1.png")
     background-size: cover
-    display: block
     height: 90px
     width: 100px
-    position: fixed
-    left: 150px
-
-
-header
   .mosigra-text
-    position: fixed
     background-image: url("images/mosigra-text-white.png")
     background-size: cover
-    display: block
     height: 100px
     width: 550px
-    right: 0
-    top: 0
-
-header 
   menu 
-    position: fixed
-    left: 550px
-    top: 60px
-
+     
     .checked-button
       color: white
       background-color: #c22
       border: 2px solid white
       margin-left: 2px
-      margin-right: 2px
-header 
-  menu
-    width: 100%    
+      margin-right: 2px     
     button 
       @extend .red-button 
       font-size: 18px
-
-header
-  menu
+      text-transform: uppercase
     button:hover
       @extend .red-button:hover

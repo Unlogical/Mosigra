@@ -15,11 +15,11 @@ body {
 
 .main {
   margin: auto;
-  padding-top: 115px;
   display: block;
   width: 1100px;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-top: 115px; }
 
 .news-info * {
   float: left; }
@@ -35,7 +35,8 @@ body {
   color: #333; }
 
 .news-block:hover {
-  background-color: rgba(255, 255, 255, 0.99); }
+  background-color: rgba(255, 255, 255, 0.99);
+  box-shadow: 2px 0px 4px 0px #a00; }
 
 .news-image {
   height: 100px;
@@ -64,7 +65,8 @@ body {
   border: 2px solid #b11;
   float: right;
   margin-top: -35px;
-  margin-right: 5px; }
+  margin-right: 5px;
+  text-transform: uppercase; }
 
 .news-block button:hover {
   color: white;
@@ -72,6 +74,7 @@ body {
 
 .news-name {
   font-weight: 600;
-  color: #a00; }
+  color: #a00;
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=news.css.map */
