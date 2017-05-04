@@ -1,0 +1,70 @@
+.red-button, header menu button {
+  color: #b11;
+  font-weight: 600;
+  background-color: white;
+  height: 30px;
+  border: 2px solid #b11; }
+
+.red-button:hover, header menu button:hover {
+  color: white;
+  background-color: #b11; }
+
+header {
+  position: fixed;
+  background-color: #b11;
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-bottom: 20px; }
+
+header .mosigra-logo {
+  background-image: url("images/mosigra-logo-white.png");
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 100px;
+  position: fixed; }
+
+header .coffee-out-logo {
+  background-image: url("images/coffee-out-logo-white1.png");
+  background-size: cover;
+  display: block;
+  height: 90px;
+  width: 100px;
+  position: fixed;
+  left: 150px; }
+
+header .mosigra-text {
+  position: fixed;
+  background-image: url("images/mosigra-text-white.png");
+  background-size: cover;
+  display: block;
+  height: 100px;
+  width: 550px;
+  right: 0;
+  top: 0; }
+
+header menu {
+  position: fixed;
+  left: 550px;
+  top: 60px; }
+  header menu .checked-button {
+    color: white;
+    background-color: #c22;
+    border: 2px solid white;
+    margin-left: 2px;
+    margin-right: 2px; }
+
+header menu {
+  width: 100%; }
+  header menu button {
+    font-size: 18px; }
+
+body {
+  font: 100% Helvetica, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

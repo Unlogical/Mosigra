@@ -1,0 +1,12 @@
+.red-button {
+  color: #b11;
+  font-weight: 600;
+  background-color: white;
+  height: 30px;
+  border: 2px solid #b11; }
+
+.red-button:hover {
+  color: white;
+  background-color: #b11; }
+
+/*# sourceMappingURL=_red-button.css.map */

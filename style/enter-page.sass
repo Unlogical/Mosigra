@@ -1,0 +1,56 @@
+@import _header
+
+$vk-button-color: #5e81a8
+$vk-button-color-hover: #7092b9
+$button-color: #b11
+$button-color-hover: #c22
+$button-height: 30px
+$button-font-color: #fff
+
+
+
+body
+  font: 100% Helvetica, sans-serif
+
+main 
+  width: 80%
+  margin: auto
+
+.sign-in-block
+  button
+    height: $button-height
+    border: 1px
+    display: inline-block
+    float: left
+    padding: 5px
+    font-weight: 600
+    color: $button-font-color
+
+.button
+  background-color: $button-color
+  margin: 10px
+
+.button:hover
+  background-color: $button-color-hover
+
+.vk-block
+  background-color: #f22
+  height: $button-height
+  display: inline-block
+  margin: 10px
+
+
+.vk-block:hover .vk-button, 
+.vk-block:hover .vk-image
+  background-color: $vk-button-color-hover
+
+.vk-image, .vk-button 
+  background-color: $vk-button-color
+  float: left
+
+.vk-image
+  font-size: 26px
+  height: $button-height
+  width: 30px
+  display: block
+  color: $button-font-color

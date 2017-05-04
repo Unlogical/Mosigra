@@ -1,0 +1,96 @@
+.red-button, header menu button {
+  color: #b11;
+  font-weight: 600;
+  background-color: white;
+  height: 30px;
+  border: 2px solid #b11; }
+
+.red-button:hover, header menu button:hover {
+  color: white;
+  background-color: #b11; }
+
+header {
+  background-color: #b11;
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-bottom: 20px; }
+
+header .mosigra-logo {
+  background-image: url("images/mosigra-logo-white.png");
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 100px; }
+
+header .coffee-out-logo {
+  background-image: url("images/coffee-out-logo-white1.png");
+  background-size: cover;
+  display: block;
+  float: left;
+  height: 90px;
+  width: 100px; }
+
+header menu .checked-button {
+  color: white;
+  background-color: #c22;
+  border: 2px solid white;
+  margin-left: 2px;
+  margin-right: 2px; }
+
+header menu {
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px; }
+  header menu button {
+    float: left; }
+
+body {
+  font: 100% Helvetica, sans-serif; }
+
+main {
+  width: 80%;
+  margin: auto; }
+
+.sign-in-block button {
+  height: 30px;
+  border: 1px;
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  font-weight: 600;
+  color: #fff; }
+
+.button {
+  background-color: #b11;
+  margin: 10px; }
+
+.button:hover {
+  background-color: #c22; }
+
+.vk-block {
+  background-color: #f22;
+  height: 30px;
+  display: inline-block;
+  margin: 10px; }
+
+.vk-block:hover .vk-button,
+.vk-block:hover .vk-image {
+  background-color: #7092b9; }
+
+.vk-image, .vk-button {
+  background-color: #5e81a8;
+  float: left; }
+
+.vk-image {
+  font-size: 26px;
+  height: 30px;
+  width: 30px;
+  display: block;
+  color: #fff; }
+
+/*# sourceMappingURL=enter-page.css.map */
