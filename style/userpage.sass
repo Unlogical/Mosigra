@@ -30,7 +30,9 @@ main
   margin-right: 10px
   .photo-buttons
     float: right
-    padding: 11px 0 12px 0
+    padding: 0
+    width: 100px
+    height: 100px
     display: none
     background-color: rgba(0,0,0,0.5)
     border-radius: 50px
@@ -42,6 +44,8 @@ main
       color: rgba(255,255,255, 0.5)
     button:hover
       color: white
+    button:first-child
+      margin-top: 10px
 .photo:hover 
   .photo-buttons
     display: block
