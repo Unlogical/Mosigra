@@ -1,0 +1,50 @@
+body {
+  background: lightblue url(images/background.jpg) fixed no-repeat;
+  background-size: cover; }
+
+main {
+  margin: auto;
+  display: block;
+  width: 1100px;
+  height: 100%;
+  overflow: hidden;
+  padding: 65px 10px 40px 10px;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.user-info {
+  width: 1080px;
+  height: 120px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px; }
+
+.name {
+  float: left; }
+
+.photo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-image: url("images/photo.jpg");
+  background-size: cover;
+  border-radius: 50px;
+  margin-right: 10px; }
+  .photo .photo-buttons {
+    float: right;
+    padding: 11px 0 12px 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px; }
+    .photo .photo-buttons button {
+      background-color: transparent;
+      margin: 0;
+      padding: 0 2px;
+      border: 2px solid transparent;
+      color: rgba(255, 255, 255, 0.5); }
+    .photo .photo-buttons button:hover {
+      color: white; }
+
+.photo:hover .photo-buttons {
+  display: block; }
+
+/*# sourceMappingURL=userpage.css.map */

@@ -3,7 +3,7 @@
   <head>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/news.css">
+    <link rel="stylesheet" href="style/userpage.css">
     <link rel="stylesheet" href="style/font-awesome-4.1.0/css/font-awesome.min.css">
     <script type="text/javascript" src="news_button.js" defer></script>
     <title> Mosigra-news </title>
@@ -20,5 +20,20 @@
         <button id="reservation"  onclick='location.href="reservation.html"'>Бронь</button>
       </menu>     
     </header>
+    <main>
+      <div class="user-info">
+        <div class="photo">
+          <div class="photo-buttons">
+            <button class="delete-photo" onclick="deletephoto()">
+              Удалить фотографию <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+            <button class="change-photo" onclick="changephoto()">
+              Загрузить новую <i class="fa fa-pencil" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="name">Иван Иванов</div>
+      </div>
+    </main>
   </body>
 </html>
