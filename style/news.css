@@ -59,8 +59,8 @@ body {
   height: 100px;
   width: 10%;
   margin-right: 10px;
-  background: url("images/noch-logo.jpg") center center;
-  background-size: cover; }
+  background-size: cover;
+  border-radius: 50px; }
 
 .news-text {
   width: 88%;
@@ -96,5 +96,25 @@ body {
   font-weight: 600;
   color: #a00;
   text-transform: uppercase; }
+
+.image1 {
+  background: url("images/noch-logo.jpg") center center;
+  background-size: cover; }
+
+.image2 {
+  background: url("images/got.jpg") center center;
+  background-size: cover; }
+
+.image3 {
+  background: url("images/serp.jpg") center center;
+  background-size: cover; }
+
+.image4 {
+  background: url("images/spartacus.jpg") center center;
+  background-size: cover; }
+
+.image5 {
+  background: url("images/smth.jpg") center center;
+  background-size: cover; }
 
 /*# sourceMappingURL=news.css.map */
