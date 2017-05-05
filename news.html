@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/news.css">
     <link rel="stylesheet" href="style/font-awesome-4.1.0/css/font-awesome.min.css">
-    <script type="text/javascript" src="news.js"></script>
+    <script type="text/javascript" src="news_button.js" defer></script>
     <title> Mosigra-news </title>
   </head>
   <body>
@@ -25,9 +25,9 @@
       <div class="news-block">
         <div class="news-info">
           <div class="news-image"></div>
-          <div class="news-text">22 ноября 18:00 Турнир по всякому разному. </div>
+          <div class="news-text"><span class="news-name" id="news-name">Манчкин турнир! </span>22 ноября 18:00 Турнир по всякому разному. </div>
         </div>
-        <button>Я ПОЙДУ!</button>
+        <button id="button1" onclick="push(this)">Я ПОЙДУ!</button>
       </div>
       <div class="news-block">
         <div class="news-info">
@@ -41,14 +41,14 @@
 С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
           </div>
         </div>
-        <button class="pushed-button">Я ПОЙДУ!</button>
+        <button id="button2" onclick="push(this)">Я ПОЙДУ!</button>
       </div>
       <div class="news-block">
         <div class="news-info">
           <div class="news-image"></div>
-          <div class="news-text">18 ноября 22:00 Игроночь.Прямо до шести утра!!! В программе серп и всё такое. Спартак ещё. И ещё что-то. И вообще всё,что захочется. Приходите! Регистрируйтесь! А то стульев не хватит :( И кстати, ведёт Митяяяя!!</div>
+          <div class="news-text"><span class="news-name" id="news-name">Итак, кто тут шакал?</span>18 ноября 22:00 Игроночь.Прямо до шести утра!!! В программе серп и всё такое. Спартак ещё. И ещё что-то. И вообще всё,что захочется. Приходите! Регистрируйтесь! А то стульев не хватит :( И кстати, ведёт Митяяяя!!</div>
         </div>
-        <button>Я ПОЙДУ!</button>
+        <button id="button3" onclick="push(this)">Я ПОЙДУ!</button>
       </div>
       <div class="news-block">
         <div class="news-info">
@@ -62,7 +62,7 @@
 С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
           </div>
         </div>
-        <button>Я ПОЙДУ!</button>
+        <button id="button4" onclick="push(this)">Я ПОЙДУ!</button>
       </div>
       <div class="news-block">
         <div class="news-info">
@@ -76,7 +76,7 @@
 С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
           </div>
         </div>
-        <button>Я ПОЙДУ!</button>
+        <button id="button5" onclick="push(this)">Я ПОЙДУ!</button>
       </div>
     </div>
   </body>
