@@ -73,4 +73,7 @@ html, body {
 body {
   font: 100% Helvetica, sans-serif; }
 
+button, a {
+  outline: none !important; }
+
 /*# sourceMappingURL=style.css.map */
