@@ -41,9 +41,9 @@ main {
   float: left; }
 
 .news-block {
-  width: 1080px;
+  width: 1075px;
   margin: 5px;
-  padding: 10px;
+  padding: 5px;
   float: left;
   min-height: 120px;
   height: 100%;
