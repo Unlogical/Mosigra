@@ -24,19 +24,6 @@
   color: white;
   background-color: #b11; }
 
-body {
-  background: lightblue url(images/background.jpg) fixed no-repeat;
-  background-size: cover; }
-
-main {
-  margin: auto;
-  display: block;
-  width: 1100px;
-  height: 100%;
-  overflow: hidden;
-  padding: 65px 10px 40px 10px;
-  background-color: rgba(255, 255, 255, 0.5); }
-
 .news-info * {
   float: left; }
 
@@ -87,7 +74,8 @@ main {
   border-radius: 5px; }
 .news-block button:hover {
   color: white;
-  background-color: #b11; }
+  background-color: #b11;
+  cursor: pointer; }
 .news-block .pushed-button {
   color: white;
   background-color: #b11; }

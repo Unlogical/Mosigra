@@ -46,6 +46,7 @@ main {
 
 .name, .tel, .email {
   width: 290px;
+  height: 20px;
   float: left; }
 
 .tel i, .email i {
