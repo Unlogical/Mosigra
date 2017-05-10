@@ -15,7 +15,7 @@ main
 
 .user-info
   width: 400px
-  height: 120px
+  height: 100px
   background-color: white
   padding: 10px
   border-radius: 20px
@@ -24,6 +24,20 @@ main
 .name, .tel, .email
   width: 290px
   float: left
+
+.tel, .email
+  i
+    color: #999
+    font-size: 15px
+    display: none
+
+.tel:hover, .email:hover
+  cursor: default
+  i
+    display: inline-block
+    cursor: pointer
+  i:hover
+    color: $main-color
 
 .name
   font-weight: 600
@@ -57,8 +71,10 @@ main
       color: rgba(255,255,255, 0.5)
     button:hover
       color: white
+      cursor: pointer
     button:first-child
       margin-top: 25%
 .photo:hover 
   .photo-buttons
     display: block
+

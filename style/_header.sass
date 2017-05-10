@@ -13,6 +13,7 @@ header
   margin-top: -20px
   margin-left: -20px
   margin-bottom: 20px
+  overflow: hidden
   *
     display: inline-block
     float: left
@@ -43,9 +44,27 @@ header
       background-color: #c33
     .checked-button:hover
       background-color: #d33
-    button 
+    a
       @extend .red-button 
-    button:hover
+      text-decoration: none
+    a:hover
       @extend .red-button:hover
-    button:last-child
+      cursor: pointer
+      text-decoration: none
+    a:last-child
       border-right: 0px solid white
+  .exit-button
+    background-color: $main-color
+    border: 0px
+    color: white
+    float: right
+    margin-right: 30px
+    margin-top: 5px
+    padding: 5px 0
+    font-size: 16px
+    i 
+      float: right
+      padding-left: 5px
+  .exit-button:hover
+    background-color: #c33
+    cursor: pointer

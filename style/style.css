@@ -1,17 +1,17 @@
-.ibutton, .red-button, header menu button, .white-button {
+.ibutton, .red-button, header menu a, .white-button {
   height: 100%;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 18px;
   padding: 5px; }
 
-.red-button, header menu button {
+.red-button, header menu a {
   color: white;
   background-color: #b11;
   border: 0px solid #b11;
     border-right: 2px solid white; }
 
-.red-button:hover, header menu button:hover {
+.red-button:hover, header menu a:hover {
   color: white;
   background-color: #c22; }
 
@@ -57,6 +57,7 @@ header {
     height: 50px;
     margin: -5px 30px 0 0; }
   header menu {
+    overflow: hidden;
     margin: 5px 0 0 0;
     padding: 0; }
     header menu .checked-button {
@@ -64,8 +65,28 @@ header {
       background-color: #c33; }
     header menu .checked-button:hover {
       background-color: #d33; }
-    header menu button:last-child {
+    header menu a {
+      text-decoration: none; }
+    header menu a:hover {
+      cursor: pointer;
+      text-decoration: none; }
+    header menu a:last-child {
       border-right: 0px solid white; }
+  header .exit-button {
+    background-color: #b11;
+    border: 0px;
+    color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+    padding: 5px 0;
+    font-size: 16px; }
+    header .exit-button i {
+      float: right;
+      padding-left: 5px; }
+  header .exit-button:hover {
+    background-color: #c33;
+    cursor: pointer; }
 
 html, body {
   margin: 0;

@@ -39,7 +39,7 @@ main {
 
 .user-info {
   width: 400px;
-  height: 120px;
+  height: 100px;
   background-color: white;
   padding: 10px;
   border-radius: 20px; }
@@ -47,6 +47,19 @@ main {
 .name, .tel, .email {
   width: 290px;
   float: left; }
+
+.tel i, .email i {
+  color: #999;
+  font-size: 15px;
+  display: none; }
+
+.tel:hover, .email:hover {
+  cursor: default; }
+  .tel:hover i, .email:hover i {
+    display: inline-block;
+    cursor: pointer; }
+  .tel:hover i:hover, .email:hover i:hover {
+    color: #b11; }
 
 .name {
   font-weight: 600;
@@ -79,7 +92,8 @@ main {
       border: 2px solid transparent;
       color: rgba(255, 255, 255, 0.5); }
     .photo .photo-buttons button:hover {
-      color: white; }
+      color: white;
+      cursor: pointer; }
     .photo .photo-buttons button:first-child {
       margin-top: 25%; }
 
