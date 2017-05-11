@@ -53,18 +53,27 @@ header
       text-decoration: none
     a:last-child
       border-right: 0px solid white
-  .exit-button
-    background-color: $main-color
-    border: 0px
-    color: white
+  .log-out-block
     float: right
+    .log-out-block *
+      float: left
+      *
+        float: left
+  .exit-button
+    float: right
+  .exit-button, .enter-button
+    @extend .log-in-out-button
     margin-right: 30px
-    margin-top: 5px
-    padding: 5px 0
-    font-size: 16px
-    i 
-      float: right
-      padding-left: 5px
-  .exit-button:hover
+  .log-out-block a 
+    @extend .log-in-out-button
+  .exit-button:hover, .enter-button:hover, .log-out-block a:hover
     background-color: #c33
     cursor: pointer
+
+.log-in-out-button
+  background-color: $main-color
+  border: 0px
+  color: white
+  padding: 5px
+  font-size: 16px
+  margin-top: 5px

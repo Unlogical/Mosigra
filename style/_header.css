@@ -72,20 +72,26 @@ header {
       text-decoration: none; }
     header menu a:last-child {
       border-right: 0px solid white; }
+  header .log-out-block {
+    float: right; }
+    header .log-out-block .log-out-block * {
+      float: left; }
+      header .log-out-block .log-out-block * * {
+        float: left; }
   header .exit-button {
-    background-color: #b11;
-    border: 0px;
-    color: white;
-    float: right;
-    margin-right: 30px;
-    margin-top: 5px;
-    padding: 5px 0;
-    font-size: 16px; }
-    header .exit-button i {
-      float: right;
-      padding-left: 5px; }
-  header .exit-button:hover {
+    float: right; }
+  header .exit-button, header .enter-button {
+    margin-right: 30px; }
+  header .exit-button:hover, header .enter-button:hover, header .log-out-block a:hover {
     background-color: #c33;
     cursor: pointer; }
+
+.log-in-out-button, header .exit-button, header .enter-button, header .log-out-block a {
+  background-color: #b11;
+  border: 0px;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 5px; }
 
 /*# sourceMappingURL=_header.css.map */
