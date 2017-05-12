@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/news.css">
+    <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="style/images/logo.png" type="image/x-icon">
+    <script type="text/javascript" src="news_button.js" defer></script>
+    <script type="text/javascript" src="login.js" defer></script>
+    <title> Mosigra-signup </title>
+  </head>
+  <body>
+    <div class="all">
+      <header>
+        <a href="news.html">
+          <div class="mosigra-logo"></div>
+          <div class="coffee-out-logo"></div>
+          <div class="mosigra-text"></div>
+        </a>
+        <menu>
+          <a id="news" class="checked-button" href="news.html" '>Новости</a>
+        </menu>  
+        <div class="log-out-block">
+          <button class="enter-button" onclick="open_form()">Войти <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+        </div>
+      </header>
+      <div class="login-block" id="login-block">
+        <button class="close-button" onclick="close_form()"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <form>
+          <input type="text" name="login" placeholder="Логин" class="text">
+          <input type="password" name="password" placeholder="Пароль" class="text">
+          <input type="submit" name="submit" value="Вход">
+        </form>
+      </div>
+      <main>
+        <div>
+          <form class="reg-form" id="reg-form">
+            <input type="text" name="name-part-one" placeholder="Имя">
+            <input type="text" name="name-part-two" placeholder="Фамилия">
+            <input type="email" name="email" placeholder="email">
+            <input type="tel" name="tel" placeholder="Телефон">
+            <input type="password" name="password" placeholder="Пароль">
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

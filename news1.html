@@ -11,88 +11,90 @@
     <title> Mosigra-news </title>
   </head>
   <body>
-    <header>
-      <a href="news.html">
-        <div class="mosigra-logo"></div>
-        <div class="coffee-out-logo"></div>
-        <div class="mosigra-text"></div>
-      </a>
-      <menu>
-        <a id="news" class="checked-button" href="news.html" '>Новости</a>
-        <a id="userpage" href="userpage.html">Страница</a>
-        <a id="goals" href="goals.html">Достижения</a>
-        <a id="reservation" href="reservation.html">Бронь</a>
-      </menu>  
-      <div class="log-out-block">
-        <a href="singup.html">Зарегистрироваться <i class="fa fa-user-plus" aria-hidden="true"></i></a>
-        <button class="enter-button" onclick="open_form()">Войти <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+    <div class="all">
+      <header>
+        <a href="news.html">
+          <div class="mosigra-logo"></div>
+          <div class="coffee-out-logo"></div>
+          <div class="mosigra-text"></div>
+        </a>
+        <menu>
+          <a id="news" class="checked-button" href="news.html" '>Новости</a>
+          <a id="userpage" href="userpage.html">Страница</a>
+          <a id="goals" href="goals.html">Достижения</a>
+          <a id="reservation" href="reservation.html">Бронь</a>
+        </menu>  
+        <div class="log-out-block">
+          <a href="signup.html">Зарегистрироваться <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+          <button class="enter-button" onclick="open_form()">Войти <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+        </div>
+      </header>
+      <div class="login-block" id="login-block">
+        <button class="close-button" onclick="close_form()"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <form>
+          <input type="text" name="login" placeholder="Логин" class="text">
+          <input type="password" name="password" placeholder="Пароль" class="text">
+          <input type="submit" name="submit" value="Вход">
+        </form>
       </div>
-    </header>
-    <div class="login-block" id="login-block">
-      <button class="close-button" onclick="close_form()"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <form>
-        <input type="text" name="login" placeholder="Логин" class="text">
-        <input type="password" name="password" placeholder="Пароль" class="text">
-        <input type="submit" name="submit" value="Вход">
-      </form>
+      <main>
+        <div class="news-block">
+          <div class="news-info">
+            <div class="news-image image1"></div>
+            <div class="news-text"><span class="news-name" id="news-name">Манчкин турнир! </span>22 ноября 18:00 Турнир по всякому разному. </div>
+          </div>
+          <button id="button1" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)" >Я пойду!</button>
+        </div>
+        <div class="news-block">
+          <div class="news-info">
+            <div class="news-image image5"></div>
+            <div class="news-text"><span class="news-name" id="news-name">18 ноября 22:00 Игроночь.</span> 
+  <span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
+  Хардкор с множеством интриг - Спартак (с дополнениями)
+  Тактическая игра - Каркассон: королевский подарок
+  Легкий карточный филлер - Экслибриум
+  Коммуникативно-интуитивный Имаджинариум
+  С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
+            </div>
+          </div>
+          <button id="button2" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
+        </div>
+        <div class="news-block">
+          <div class="news-info">
+            <div class="news-image image2"></div>
+            <div class="news-text"><span class="news-name" id="news-name">Итак, кто тут шакал?</span>18 ноября 22:00 Игроночь.Прямо до шести утра!!! В программе серп и всё такое. Спартак ещё. И ещё что-то. И вообще всё,что захочется. Приходите! Регистрируйтесь! А то стульев не хватит :( И кстати, ведёт Митяяяя!!</div>
+          </div>
+          <button id="button3" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
+        </div>
+        <div class="news-block">
+          <div class="news-info">
+            <div class="news-image image3"></div>
+            <div class="news-text"><span class="news-name">18 ноября 22:00 Игроночь.</span> 
+  <span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
+  Хардкор с множеством интриг - Спартак (с дополнениями)
+  Тактическая игра - Каркассон: королевский подарок
+  Легкий карточный филлер - Экслибриум
+  Коммуникативно-интуитивный Имаджинариум
+  С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
+            </div>
+          </div>
+          <button id="button4" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
+        </div>
+        <div class="news-block">
+          <div class="news-info">
+            <div class="news-image image4"></div>
+            <div class="news-text"><span class="news-name" id="news-name">18 ноября 22:00 Игроночь.</span> 
+  <span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
+  Хардкор с множеством интриг - Спартак (с дополнениями)
+  Тактическая игра - Каркассон: королевский подарок
+  Легкий карточный филлер - Экслибриум
+  Коммуникативно-интуитивный Имаджинариум
+  С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
+            </div>
+          </div>
+          <button id="button5" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
+        </div>
+      </main>
     </div>
-    <main>
-      <div class="news-block">
-        <div class="news-info">
-          <div class="news-image image1"></div>
-          <div class="news-text"><span class="news-name" id="news-name">Манчкин турнир! </span>22 ноября 18:00 Турнир по всякому разному. </div>
-        </div>
-        <button id="button1" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)" >Я пойду!</button>
-      </div>
-      <div class="news-block">
-        <div class="news-info">
-          <div class="news-image image5"></div>
-          <div class="news-text"><span class="news-name" id="news-name">18 ноября 22:00 Игроночь.</span> 
-<span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
-Хардкор с множеством интриг - Спартак (с дополнениями)
-Тактическая игра - Каркассон: королевский подарок
-Легкий карточный филлер - Экслибриум
-Коммуникативно-интуитивный Имаджинариум
-С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
-          </div>
-        </div>
-        <button id="button2" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
-      </div>
-      <div class="news-block">
-        <div class="news-info">
-          <div class="news-image image2"></div>
-          <div class="news-text"><span class="news-name" id="news-name">Итак, кто тут шакал?</span>18 ноября 22:00 Игроночь.Прямо до шести утра!!! В программе серп и всё такое. Спартак ещё. И ещё что-то. И вообще всё,что захочется. Приходите! Регистрируйтесь! А то стульев не хватит :( И кстати, ведёт Митяяяя!!</div>
-        </div>
-        <button id="button3" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
-      </div>
-      <div class="news-block">
-        <div class="news-info">
-          <div class="news-image image3"></div>
-          <div class="news-text"><span class="news-name">18 ноября 22:00 Игроночь.</span> 
-<span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
-Хардкор с множеством интриг - Спартак (с дополнениями)
-Тактическая игра - Каркассон: королевский подарок
-Легкий карточный филлер - Экслибриум
-Коммуникативно-интуитивный Имаджинариум
-С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
-          </div>
-        </div>
-        <button id="button4" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
-      </div>
-      <div class="news-block">
-        <div class="news-info">
-          <div class="news-image image4"></div>
-          <div class="news-text"><span class="news-name" id="news-name">18 ноября 22:00 Игроночь.</span> 
-<span class="news-desciption">Разношерстная подборка, каждый найдет что нибудь для себя:
-Хардкор с множеством интриг - Спартак (с дополнениями)
-Тактическая игра - Каркассон: королевский подарок
-Легкий карточный филлер - Экслибриум
-Коммуникативно-интуитивный Имаджинариум
-С этого мы начнем, обязательно сыграем и в другие игры, если у вас есть какие то пожелания, записывайтесь в обсуждении и оставляйте свои просьбы по настольным играм, постараемся подобрать вам игроков</span>
-          </div>
-        </div>
-        <button id="button5" onclick="press(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">Я пойду!</button>
-      </div>
-    </main>
   </body>
 </html>
