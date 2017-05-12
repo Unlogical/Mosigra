@@ -1,17 +1,36 @@
 .reg-block {
-  width: 700px;
+  width: 500px;
+  height: 300px;
   margin: auto;
   background-color: white;
-  height: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 10px; }
+  padding: 10px 10px 20px 10px;
+  margin-top: 70px;
+  border-radius: 10px;
+  border: 2px solid #b11; }
+  .reg-block .description {
+    color: #b11;
+    font-weight: 600; }
   .reg-block form {
     width: 310px;
-    margin: auto; }
-    .reg-block form input {
+    margin: auto;
+    margin-top: 15px; }
+    .reg-block form .text {
       width: 300px;
       display: block;
-      margin: 5px; }
+      margin: 10px; }
+    .reg-block form input[type="submit"] {
+      color: #b11;
+      font-weight: 600;
+      background-color: white;
+      height: 30px;
+      border: 2px solid #b11;
+      border-radius: 5px;
+      float: right;
+      margin-top: 10px;
+      text-transform: uppercase; }
+    .reg-block form input[type="submit"]:hover {
+      color: white;
+      background-color: #b11;
+      cursor: pointer; }
 
 /*# sourceMappingURL=signup.css.map */
