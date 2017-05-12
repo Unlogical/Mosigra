@@ -94,6 +94,9 @@ header {
   font-size: 16px;
   margin-top: 5px; }
 
+i {
+  padding: 0 2px; }
+
 html, body {
   margin: 0;
   padding: 0; }

@@ -85,6 +85,48 @@
   color: #a00;
   text-transform: uppercase; }
 
+.login-block {
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  left: 40%;
+  padding: 10px 10px 0 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #b11;
+  display: none; }
+  .login-block * {
+    float: left;
+    margin: 2px; }
+  .login-block .text {
+    width: 94%; }
+  .login-block input[type="submit"] {
+    color: #b11;
+    font-weight: 600;
+    background-color: white;
+    height: 30px;
+    border: 2px solid #b11;
+    border-radius: 5px;
+    float: right;
+    margin-top: 5px;
+    text-transform: uppercase; }
+  .login-block input[type="submit"]:hover {
+    color: white;
+    background-color: #b11;
+    cursor: pointer; }
+  .login-block .close-button {
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid white;
+    border-radius: 10px;
+    float: right;
+    color: #b11;
+    margin-top: -10px;
+    margin-right: -10px; }
+  .login-block .close-button:hover {
+    color: #e22;
+    cursor: pointer; }
+
 .image1 {
   background: url("images/noch-logo.jpg") center center;
   background-size: cover; }

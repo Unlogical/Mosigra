@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="style/images/logo.png" type="image/x-icon">
     <script type="text/javascript" src="news_button.js" defer></script>
+    <script type="text/javascript" src="login.js" defer></script>
     <title> Mosigra-news </title>
   </head>
   <body>
@@ -24,9 +25,17 @@
       </menu>  
       <div class="log-out-block">
         <a href="singup.html">Зарегистрироваться <i class="fa fa-user-plus" aria-hidden="true"></i></a>
-        <button class="enter-button">Войти <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+        <button class="enter-button" onclick="open_form()">Войти <i class="fa fa-sign-in" aria-hidden="true"></i></button>
       </div>
     </header>
+    <div class="login-block" id="login-block">
+      <button class="close-button" onclick="close_form()"><i class="fa fa-times" aria-hidden="true"></i></button>
+      <form>
+        <input type="text" name="login" placeholder="Логин" class="text">
+        <input type="password" name="password" placeholder="Пароль" class="text">
+        <input type="submit" name="submit" value="Вход">
+      </form>
+    </div>
     <main>
       <div class="news-block">
         <div class="news-info">
