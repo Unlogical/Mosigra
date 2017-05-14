@@ -72,21 +72,19 @@ header {
       text-decoration: none; }
     header menu a:last-child {
       border-right: 0px solid white; }
-  header .log-out-block {
+  header .log-in-out-block {
     float: right; }
-    header .log-out-block .log-out-block * {
+    header .log-in-out-block * {
       float: left; }
-      header .log-out-block .log-out-block * * {
+      header .log-in-out-block * * {
         float: left; }
-  header .exit-button {
-    float: right; }
   header .exit-button, header .enter-button {
     margin-right: 30px; }
-  header .exit-button:hover, header .enter-button:hover, header .log-out-block a:hover {
+  header .exit-button:hover, header .enter-button:hover, header .log-in-out-block a:hover {
     background-color: #c33;
     cursor: pointer; }
 
-.log-in-out-button, header .exit-button, header .enter-button, header .log-out-block a {
+.log-in-out-button, header .exit-button, header .enter-button, header .log-in-out-block a {
   background-color: #b11;
   border: 0px;
   color: white;
