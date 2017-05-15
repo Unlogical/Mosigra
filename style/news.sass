@@ -90,19 +90,7 @@
   .text 
     width: 94%
   input[type="submit"]
-    color: $main-color
-    font-weight: 600
-    background-color: white
-    height: 30px
-    border: 2px solid $main-color
-    border-radius: 5px
-    float: right
-    margin-top: 5px
-    text-transform: uppercase
-  input[type="submit"]:hover
-    color: white
-    background-color: $main-color
-    cursor: pointer
+    @extend .main-button
   .close-button
     padding: 0
     background-color: rgba(255,255,255,0)

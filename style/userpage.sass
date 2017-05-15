@@ -20,6 +20,7 @@ main
 .left-in, .right
   background-color: white
   padding: 10px
+  margin-bottom: 10px
   border-radius: 20px
   display: block
 
@@ -39,7 +40,7 @@ main
 
 
 .name, .tel, .email
-  width: 270px
+  width: 70%
   height: 20px
   float: left
   
@@ -57,9 +58,9 @@ main
   i:hover
     color: $main-color
 
-.name
+.name, .header
   font-weight: 600
-  font-size: 20px
+  font-size: 18px
   color: $main-color
   margin: 0 0 5px 0
 
@@ -96,3 +97,5 @@ main
   .photo-buttons
     display: block
 
+.button
+  @extend .main-button

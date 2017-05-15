@@ -24,6 +24,22 @@
   color: white;
   background-color: #b11; }
 
+.main-button, .button {
+  color: #b11;
+  font-weight: 600;
+  background-color: white;
+  height: 30px;
+  border: 2px solid #b11;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5px;
+  text-transform: uppercase; }
+
+.main-button:hover, .button:hover {
+  color: white;
+  background-color: #b11;
+  cursor: pointer; }
+
 body {
   background: lightblue url(images/background.jpg) fixed no-repeat;
   background-size: cover; }
@@ -43,6 +59,7 @@ main {
 .left-in, .right {
   background-color: white;
   padding: 10px;
+  margin-bottom: 10px;
   border-radius: 20px;
   display: block; }
 
@@ -61,7 +78,7 @@ main {
   height: 100px; }
 
 .name, .tel, .email {
-  width: 270px;
+  width: 70%;
   height: 20px;
   float: left; }
 
@@ -78,9 +95,9 @@ main {
   .tel:hover i:hover, .email:hover i:hover {
     color: #b11; }
 
-.name {
+.name, .header {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   color: #b11;
   margin: 0 0 5px 0; }
 

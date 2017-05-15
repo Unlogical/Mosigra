@@ -24,6 +24,22 @@
   color: white;
   background-color: #b11; }
 
+.main-button, .login-block input[type="submit"] {
+  color: #b11;
+  font-weight: 600;
+  background-color: white;
+  height: 30px;
+  border: 2px solid #b11;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5px;
+  text-transform: uppercase; }
+
+.main-button:hover, .login-block input[type="submit"]:hover {
+  color: white;
+  background-color: #b11;
+  cursor: pointer; }
+
 .all {
   width: 100%;
   height: 100%;
@@ -106,20 +122,6 @@
     margin: 2px; }
   .login-block .text {
     width: 94%; }
-  .login-block input[type="submit"] {
-    color: #b11;
-    font-weight: 600;
-    background-color: white;
-    height: 30px;
-    border: 2px solid #b11;
-    border-radius: 5px;
-    float: right;
-    margin-top: 5px;
-    text-transform: uppercase; }
-  .login-block input[type="submit"]:hover {
-    color: white;
-    background-color: #b11;
-    cursor: pointer; }
   .login-block .close-button {
     padding: 0;
     background-color: rgba(255, 255, 255, 0);
