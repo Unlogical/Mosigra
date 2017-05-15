@@ -1,5 +1,6 @@
 @import _red-button
-
+$progress-background: #fff
+$progress-color: #d33
 
 body
   background: lightblue url(images/background.jpg) fixed no-repeat
@@ -10,7 +11,7 @@ main
   width: 1100px
   height: 100%
 
-  padding: 65px 10px 40px 10px
+  padding: 70px 10px 40px 10px
   background-color: rgba(255,255,255, 0.5)
   display: flex
   flex-direction: row 
@@ -99,3 +100,33 @@ main
 
 .button
   @extend .main-button
+
+progress
+  width: 400px
+  height: 25px
+  margin: 0 0 -2px 0
+  padding: 0
+  background-color: $progress-background
+  border: 0px
+
+progress::-webkit-progress-bar
+  background-color: $progress-background
+  color: $progress-color
+
+progress::-moz-progress-bar
+  background: $progress-color
+
+progress::-webkit-progress-value 
+  background: $progress-color
+
+.progress
+  padding: 3px
+  border: 2px solid $progress-color
+  width: 90%
+  margin: auto
+
+.event-name 
+  float: left
+
+.event-count
+  float: right
