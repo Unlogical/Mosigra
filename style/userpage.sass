@@ -118,6 +118,19 @@ main
   margin: auto
   margin-bottom: 10px
 
+.events
+  display: flex
+  flex-direction: column 
+  justify-content: flex-start
+.event-block
+  display: flex
+  flex-direction: row 
+  justify-content: space-between
+.event-block:hover
+  .event-name, .event-count
+    font-weight: 600
+    color: $main-color
+
 .red-block
   border-color: $progress-color-red
 
@@ -126,12 +139,6 @@ main
 
 .yellow-block 
   border-color: $progress-color-yellow
-
-.event-name 
-  float: left
-
-.event-count
-  float: right
 
 .red::-webkit-progress-bar
   background-color: $progress-background

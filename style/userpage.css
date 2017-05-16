@@ -149,6 +149,20 @@ main {
   margin: auto;
   margin-bottom: 10px; }
 
+.events {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
+.event-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.event-block:hover .event-name, .event-block:hover .event-count {
+  font-weight: 600;
+  color: #b11; }
+
 .red-block {
   border-color: #d33; }
 
@@ -157,12 +171,6 @@ main {
 
 .yellow-block {
   border-color: #fd3; }
-
-.event-name {
-  float: left; }
-
-.event-count {
-  float: right; }
 
 .red::-webkit-progress-bar {
   background-color: #fff;
