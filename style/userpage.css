@@ -134,34 +134,64 @@ main {
 .photo:hover .photo-buttons {
   display: block; }
 
-progress {
-  width: 400px;
+.progress {
+  width: 500px;
   height: 25px;
-  margin: 0 0 -2px 0;
+  margin: 0 0 -1px 0;
   padding: 0;
   background-color: #fff;
   border: 0px; }
 
-progress::-webkit-progress-bar {
-  background-color: #fff;
-  color: #d33; }
-
-progress::-moz-progress-bar {
-  background: #d33; }
-
-progress::-webkit-progress-value {
-  background: #d33; }
-
-.progress {
+.progress-block {
   padding: 3px;
-  border: 2px solid #d33;
-  width: 90%;
-  margin: auto; }
+  border: 2px solid;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 10px; }
+
+.red-block {
+  border-color: #d33; }
+
+.green-block {
+  border-color: #3d3; }
+
+.yellow-block {
+  border-color: #fd3; }
 
 .event-name {
   float: left; }
 
 .event-count {
   float: right; }
+
+.red::-webkit-progress-bar {
+  background-color: #fff;
+  color: #d33; }
+
+.red::-moz-progress-bar {
+  background: #d33; }
+
+.red::-webkit-progress-value {
+  background: #d33; }
+
+.green::-webkit-progress-bar {
+  background-color: #fff;
+  color: #3d3; }
+
+.green::-moz-progress-bar {
+  background: #3d3; }
+
+.green::-webkit-progress-value {
+  background: #3d3; }
+
+.yellow::-webkit-progress-bar {
+  background-color: #fff;
+  color: #fd3; }
+
+.yellow::-moz-progress-bar {
+  background: #fd3; }
+
+.yellow::-webkit-progress-value {
+  background: #fd3; }
 
 /*# sourceMappingURL=userpage.css.map */
