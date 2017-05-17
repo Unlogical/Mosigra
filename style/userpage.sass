@@ -103,21 +103,6 @@ main
 .button
   @extend .main-button
 
-.progress
-  width: 500px
-  height: 25px
-  margin: 0 0 -1px 0
-  padding: 0
-  background-color: $progress-background
-  border: 0px
-
-.progress-block
-  padding: 3px
-  border: 2px solid 
-  width: 500px
-  margin: auto
-  margin-bottom: 10px
-
 .events
   display: flex
   flex-direction: column 
@@ -131,14 +116,36 @@ main
     font-weight: 600
     color: $main-color
 
+
+.goal-block
+  padding: 2px 20px
+  margin: 15px auto
+
+.discont 
+  font-weight: 600
+  color: $main-color
+
+.progress
+  width: 550px
+  height: 25px
+  margin: 0 0 -1px 0
+  padding: 0
+  background-color: $progress-background
+  border: 0px
+
+.progress-block
+  padding: 3px
+  width: 550px
+  margin: auto
+  margin-bottom: 10px
 .red-block
-  border-color: $progress-color-red
+  border: 2px solid $progress-color-red
 
 .green-block
-  border-color: $progress-color-green
+  border: 2px solid $progress-color-green
 
 .yellow-block 
-  border-color: $progress-color-yellow
+  border: 2px solid $progress-color-yellow
 
 .red::-webkit-progress-bar
   background-color: $progress-background

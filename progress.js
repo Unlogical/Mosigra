@@ -1,16 +1,26 @@
-/*window.onload = function(){
-  var flag = 0;
-  var elements = document.getElementsByClassName('red');
+window.onload = function(){
+  var elements = document.getElementsByClassName('progress');
   for (var i=0; i<elements.length; i++)  {
-  	var j = i;
-  	j = j - flag;
-  	if (elements[j].value > 66) {
-	  elements[j].className = elements[j].className.replace('red', 'green');
-	  flag++;
+  	if (elements[i].value > 70) {
+	  elements[i].className = elements[i].className.replace('color', 'green');
 	}
-	if (elements[j].value > 33 && elements[j].value<=66) {
-	  elements[j].className = elements[j].className.replace('red', 'yellow');
-	  flag++;
+	if (elements[i].value > 40 && elements[i].value<=70) {
+	  elements[i].className = elements[i].className.replace('color', 'yellow');
+	}
+	else {
+	  elements[i].className = elements[i].className.replace('color', 'red');
 	}
   }
-}*/
+  var elements = document.getElementsByClassName('progress-block');
+  for (var i=0; i<elements.length; i++)  {
+  	if (elements[i].firstElementChild.value > 70) {
+	  elements[i].className = elements[i].className.replace('color-block', 'green-block');
+	}
+	if (elements[i].firstElementChild.value > 40 && elements[i].firstElementChild.value<=70) {
+	  elements[i].className = elements[i].className.replace('color-block', 'yellow-block');
+	}
+	else {
+	  elements[i].className = elements[i].className.replace('color-block', 'red-block');
+	}
+  }
+}
